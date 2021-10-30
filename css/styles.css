@@ -1,0 +1,34 @@
+body {
+  background-image: linear-gradient(to bottom right, #eff3f6, #FFFFFF);
+  font-family: Quicksand,Muli,Merriweather,Georgia,Cambria,Times New Roman,Times,serif;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+hr {
+  width: 2%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 1px;
+  border-color: black;
+}
+
+h1, h3, h2 {
+  color: #5f27cd;
+}
+
+.b {
+  justify-content: center;
+  width: 90%;
+  align-content: center;
+}
+
+img {
+  height: 150px;
+  border-radius: 100%;
+}
+
+#heading{
+  font-size: 50px;
+}
