@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Phone number : </b> +962781310130</li>
+          <li><b>Linkedin : </b><a href="https://www.linkedin.com/in/amir-zabin-38363315a/">Amir Zabin</a></li>
+          <li><b>Facebook : </b><a href="https://web.facebook.com/dominus.ameer.5/">Amir Zabin Facebook</a></li>
+          <li><b>Email : </b><a href="mailto:amir.zaidan.zabin@gmail.com">My email</a></li>
+        </ul>
+        <form action="emailto" method="post" enctype="text/plain">
+          <label for="name">Name : </label>
+          <input type="text" name="name"><br>
+          <label for="email">Email : </label>
+          <input type="email" name="email"><br>
+          <label for="Message">Message : </label><br>
+          <textarea name="Message" rows="8" cols="80"></textarea><br>
+          <input type="text" hidden="yes" name="emailto" value="emailto.value = mailto: + email.value">
+          <input type="submit"><br>
+          <input type="datetime-local"><br>
+          <input type="file"><br>
+          <input type="range">
+        </form>
+      </td>
+      <td>
+
+      </td>
+    </tr>
+  </table>
+
+
+
+
+  <form oninput="txtFullName.value = txtFirstName.value +' '+ txtLastName.value">
+    First name : <input type="text" name="txtFirstName" /> <br><br>
+    Last name : <input type="text" name="txtLastName" /> <br><br>
+    Full name : <input type="text" name="txtFullName"  > <br><br>
+  </form>
+
+
+
+  <a href="index.html"><i>Back to main</i></a>
+</body>
+
+</html>
